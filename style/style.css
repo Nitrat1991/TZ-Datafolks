@@ -1,0 +1,164 @@
+body {
+    font-family: 'DIN Pro';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container h1 {
+    color: #344258;
+}
+
+.container p {
+    color: #344258;
+    letter-spacing: -0.5px;
+}
+
+.img3 {
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.text1 {
+    bottom: 20px;
+}
+
+.btn1 {
+    border-radius: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 3px solid;
+    border-color: #00264c;
+    color: #00264c;
+    opacity: 0;
+    transition:all .5s ease;
+}
+
+.btn1:hover{
+    color: #fff;
+    background-color: #00264c;
+    cursor: pointer;
+}
+
+.img5,
+.img2,
+.text1 {
+    transition: all .6s ease;
+}
+
+.img5:hover .img2 {
+    filter: saturate(4);
+}
+
+.img5:hover .text1 {
+    font-size: 28px;
+}
+
+.img5:hover .btn1 {
+    opacity:.8;
+    padding: .4vw;
+
+}
+
+.btn2 {
+    padding: .5vw 5vw;
+    border-radius: 0;
+    font-weight: bold;
+    border: 3px solid;
+    border-color: #00264c;
+    transition: all .6s ease;
+}
+
+.btn2:hover{
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px #00264c;
+}
+
+.contacts {
+    background-color: #0d1b2b;
+    color: #fff;
+    letter-spacing: -0.5px;
+}
+
+.cont-title {
+    font-size: calc(18px + 1vw);
+    font-weight: bold;
+}
+
+.cont-call {
+    display: flex;
+}
+
+.call {
+    padding-right: 20px;
+    width: 20vw;
+}
+
+.email {
+    border-left: 3px solid #3d95e3;
+    padding-left: 20px;
+    padding-top: 15px;
+    color: #3d95e3;
+    width: 20vw;
+}
+
+.email div,
+a {
+    color: #3d95e3;
+}
+
+.contacts-form {
+    border: 3px solid #243448;
+    padding: 30px;
+}
+
+.form-group {
+    margin-bottom: 2px;
+}
+
+.contacts-form form div input,
+.contacts-form form div textarea {
+    background-color: #243448;
+    border: none;
+    border-radius: 0;
+    color: #fff;
+    padding: 12px;
+    padding-left: 30px;
+    margin: 0px;
+}
+
+input::-webkit-input-placeholder {
+    color: #fff !important;
+}
+
+input:-moz-placeholder {
+    /* Firefox 18- */
+    color: #fff !important;
+}
+
+input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #fff !important;
+}
+
+input:-ms-input-placeholder {
+    color: #fff !important;
+}
+
+textarea::-webkit-input-placeholder {
+    color: #fff !important;
+}
+
+.contacts-form a {
+    text-decoration: underline;
+}
+
+
+input[type=text]:focus {
+    background-color: black;
+
+}
